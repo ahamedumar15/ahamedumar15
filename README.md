@@ -1,3 +1,3 @@
 - 👋 Hi, I’m Umar Ahamed
 - 👀 I’m interested in web-development and programming
-- 🌱 I’m currently learning web-development
+- 👨‍💻 I’m currently learning web-development
