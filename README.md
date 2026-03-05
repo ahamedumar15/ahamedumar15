@@ -25,6 +25,7 @@ const umar = {
         "Designing scalable automation frameworks",
         "Improving test architecture & maintainability",
         "Reducing flaky tests through better structure"
+        
     ]
 };
 ```
@@ -90,14 +91,17 @@ graph LR
     B --> C[Playwright Learning]
     C --> D[Java Mastery]
     D --> E[SDET Excellence]
+    E --> F[ISTQB CTFL Preparation]
     style A fill:#43B02A
     style E fill:#FF6C37
+    style F fill:#FFD700
 ```
 
 - 🏗️ Framework architecture refinement
 - 🔄 CI-integrated test execution
 - 🎭 Playwright fundamentals
 - ☕ Strengthening Java for SDET roles
+- 🛠️ preparing for ISTQB CTFL exam
 
 ---
 
