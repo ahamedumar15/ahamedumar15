@@ -1,218 +1,177 @@
 <div align="center">
 
-# 👋 Hi, I'm Umar Ahamed
+# Umar Ahamed
 
-### Software Engineering Undergraduate | QA Automation Engineer | SDET
+### Aspiring QA Automation Engineer • SDET • Software Engineering Undergraduate
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahamed-umar)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aamedumar825@gmail.com)
+<p>
+  Building scalable automation systems with a software engineering mindset.
+</p>
 
-![Profile Views](https://komarev.com/ghpvc/?username=ahamedumar15&color=blueviolet&style=flat-square)
+<br>
+
+<a href="https://linkedin.com/in/ahamed-umar">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:aamedumar825@gmail.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<img src="https://komarev.com/ghpvc/?username=ahamedumar15&style=for-the-badge&color=0e75b6"/>
 
 </div>
 
 ---
 
-## 🎯 About Me
+# About Me
 
-```typescript
+```ts
 const umar = {
-    role: "QA Automation Engineer",
-    focus: "Building reliable automation systems",
-    philosophy: "Automation is engineering — not scripting",
-    currentlyWorkingOn: [
-        "Designing scalable automation frameworks",
-        "Improving test architecture & maintainability",
-        "Reducing flaky tests through better structure"
-        
-    ]
+  role: "QA Automation Engineer",
+  specialization: "Test Architecture & Automation",
+  
+  philosophy: [
+    "Automation is engineering, not scripting",
+    "Reliable tests > large test suites",
+    "Maintainability scales quality"
+  ],
+
+  currentFocus: [
+    "Playwright Automation",
+    "Framework Architecture",
+    "CI/CD Pipelines",
+    "Scalable Test Design",
+    "SDET Engineering Practices"
+  ]
 };
 ```
 
-<details>
-<summary>📊 <b>More About My Approach</b></summary>
+---
+
+# Engineering Mindset
+
+I approach QA Automation as a software engineering discipline — focused on architecture, reliability, maintainability, and long-term scalability.
+
+### Core Principles
+
+- Designing maintainable automation frameworks
+- Reducing flaky tests through clean architecture
+- Writing reusable and scalable test utilities
+- Integrating automated testing into CI/CD pipelines
+- Prioritizing stability over inflated coverage metrics
+
+---
+
+# Tech Stack
+
+<div align="center">
+
+## Automation & Testing
+
+<img src="https://skillicons.dev/icons?i=selenium,postman,py,java,js"/>
+
 <br>
 
-I treat test automation as a software engineering discipline:
-- ✅ Writing maintainable, scalable test code
-- 🏗️ Building robust framework architectures
-- 🔄 Implementing CI/CD integration
-- 📈 Focusing on test reliability over coverage numbers
-
-</details>
+<img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cucumber-23D96C?style=for-the-badge&logo=cucumber&logoColor=white"/>
+<img src="https://img.shields.io/badge/TestNG-E33332?style=for-the-badge"/>
 
 ---
 
-## 🛠️ Tech Stack
+## Tools & DevOps
 
-<table>
-<tr>
-<td valign="top" width="50%">
+<img src="https://skillicons.dev/icons?i=git,github,docker,jenkins,linux,maven"/>
 
-### 🧪 Automation & Testing
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![Cucumber](https://img.shields.io/badge/Cucumber-23D96C?style=for-the-badge&logo=cucumber&logoColor=white)
-![TestNG](https://img.shields.io/badge/TestNG-DC524A?style=for-the-badge&logo=testinglibrary&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=for-the-badge&logo=playwright&logoColor=white)
-
-**Methodologies:**
-- Page Object Model (POM)
-- Behavior Driven Development (BDD)
-- API Testing & Validation
-
-</td>
-<td valign="top" width="50%">
-
-### 💻 Languages & Tools
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-**Build & CI/CD:**
-- Maven
-- Git & GitHub
-- Jenkins
-- Docker
-- Linux
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
-## 🎯 Current Focus
+# Testing Methodologies
+
+```text
+✔ Page Object Model (POM)
+✔ Behavior Driven Development (BDD)
+✔ API Testing & Validation
+✔ End-to-End Automation
+✔ Cross Browser Testing
+✔ CI/CD Integrated Testing
+```
+
+---
+
+# Current Roadmap
 
 ```mermaid
 graph LR
-    A[Framework Architecture] --> B[CI Integration]
-    B --> C[Playwright Learning]
-    C --> D[Java Mastery]
-    D --> E[SDET Excellence]
-    E --> F[ISTQB CTFL Preparation]
-    style A fill:#43B02A
-    style E fill:#FF6C37
-    style F fill:#FFD700
+    A[Framework Design] --> B[Playwright]
+    B --> C[CI/CD Pipelines]
+    C --> D[SDET Engineering]
+    D --> E[ISTQB CTFL]
+
+    style A fill:#1f2937,color:#fff
+    style D fill:#2563eb,color:#fff
+    style E fill:#16a34a,color:#fff
 ```
 
-- 🏗️ Framework architecture refinement
-- 🔄 CI-integrated test execution
-- 🎭 Playwright fundamentals
-- ☕ Strengthening Java for SDET roles
-- 🛠️ preparing for ISTQB CTFL exam
+- Framework architecture refinement
+- Playwright advanced automation
+- CI-integrated execution pipelines
+- Java mastery for enterprise SDET roles
+- Preparing for ISTQB CTFL certification
 
 ---
 
-## 🚀 Upcoming Projects
-
-<table>
-<tr>
-<td width="50%">
-
-### 🎯 Automation Framework Design
-[![Repo](https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahamedumar15/YOUR_REPO)
-
-**Selenium + Cucumber + TestNG Framework**
-
-```
-✓ Modular POM architecture
-✓ Reusable step definitions
-✓ Integrated reporting
-✓ CI-compatible execution
-✓ Data-driven testing support
-```
-
-**Tech:** `Selenium` `Cucumber` `TestNG` `Maven` `Jenkins`
-
-</td>
-<td width="50%">
-
-### 📋 Manual Testing & Defect Management
-[![Repo](https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahamedumar15/YOUR_REPO)
-
-**Comprehensive Test Strategy**
-
-```
-✓ Complete test plan documentation
-✓ 35+ structured test cases
-✓ Defect lifecycle tracking
-✓ Priority classification strategy
-✓ Test metrics & reporting
-```
-
-**Focus:** `Test Planning` `Bug Tracking` `Documentation`
-
-</td>
-</tr>
-</table>
+# GitHub Analytics
 
 <div align="center">
 
-### 📂 [View All Projects →](https://github.com/ahamedumar15?tab=repositories)
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=ahamedumar15&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahamedumar15&layout=compact&theme=tokyonight&hide_border=true"/>
+
+<br><br>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ahamedumar15&theme=tokyonight&hide_border=true"/>
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+# Achievements
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ahamedumar15&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="170"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahamedumar15&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170"/>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ahamedumar15&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+<img src="https://github-profile-trophy.vercel.app/?username=ahamedumar15&theme=tokyonight&no-frame=true&row=1&column=6"/>
 
 </div>
 
 ---
 
-## 🏆 Achievements & Contributions
+# Open To
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=ahamedumar15&theme=tokyonight&no-frame=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
+`QA Automation Opportunities` • `SDET Roles` • `Open Source Collaboration`
+
+`Framework Design Discussions` • `Mentorship` • `Tech Networking`
 
 </div>
 
 ---
 
-## 💡 Testing Philosophy
+# Connect With Me
 
 <div align="center">
 
-```ascii
-╔═══════════════════════════════════════════════════════════╗
-║                                                           ║
-║   "Quality is engineered. Reliability is intentional."   ║
-║                                                           ║
-║         Testing is not just finding bugs —               ║
-║         it's preventing them through better design       ║
-║                                                           ║
-╚═══════════════════════════════════════════════════════════╝
-```
+<a href="https://linkedin.com/in/ahamed-umar">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
 
-</div>
+<a href="mailto:aamedumar825@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
 
----
-
-## 📫 Let's Connect!
-
-<div align="center">
-
-I'm always open to discussing test automation, framework design, or SDET career paths!
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahamed-umar)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aamedumar825@gmail.com)
-[![CV](https://img.shields.io/badge/CV-Download-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1hyHbk9JkrvgtlFYKzllNbVSqpLnhGXpQ/view)
-
-### 🤝 Open to:
-`Collaboration` • `Mentorship` • `Code Reviews` • `Tech Discussions` • `Job Opportunities`
 
 </div>
 
@@ -220,14 +179,10 @@ I'm always open to discussing test automation, framework design, or SDET career 
 
 <div align="center">
 
-### ⭐ If you find my work valuable, consider giving my repos a star!
+### "Quality is engineered — not inspected."
 
-**💼 Currently seeking SDET/QA Automation opportunities**
+<br>
 
----
-
-*Last Updated: February 2026*
-
-![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
+⭐ If you enjoy my work, consider starring my repositories.
 
 </div>
