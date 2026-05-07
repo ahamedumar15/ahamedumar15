@@ -6,7 +6,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahamed-umar)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aamedumar825@gmail.com)
-[![CV](https://img.shields.io/badge/Download_CV-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/drive/folders/19ub5CTX9gmDbTBVnXUmIAXA7am9V73QS?usp=sharing)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ahamedumar15&color=blueviolet&style=flat-square)
 
