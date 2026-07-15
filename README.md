@@ -2,10 +2,10 @@
 
 # Umar Ahamed
 
-### Aspiring QA Automation Engineer • SDET • Software Engineering Undergraduate
+### Aspiring AI Engineer • Software Engineering Undergraduate • Test Automation Builder
 
 <p>
-  Building scalable automation systems with a software engineering mindset.
+  I build reliable, scalable software with a strong focus on automation, quality engineering, and practical AI-first development.
 </p>
 
 <br>
@@ -24,105 +24,119 @@
 
 ---
 
-# About Me
+## About Me
 
 ```ts
 const umar = {
-  role: "QA Automation Engineer",
-  specialization: "Test Architecture & Automation",
-  
-  philosophy: [
-    "Automation is engineering, not scripting",
-    "Reliable tests > large test suites",
-    "Maintainability scales quality"
+  title: "Aspiring AI Engineer",
+  focus: [
+    "AI-assisted software development",
+    "Automation and quality engineering",
+    "Full-stack product thinking",
+    "Scalable, maintainable test systems"
   ],
-
-  currentFocus: [
-    "Playwright Automation",
-    "Framework Architecture",
-    "CI/CD Pipelines",
-    "Scalable Test Design",
-    "SDET Engineering Practices"
+  strengths: [
+    "Playwright test automation",
+    "Modern end-to-end testing",
+    "UI and regression coverage",
+    "CI-friendly test design",
+    "Clean, reusable test architecture"
   ]
 };
 ```
 
 ---
 
-# Engineering Mindset
+## What I’m Focused On
 
-I approach QA Automation as a software engineering discipline — focused on architecture, reliability, maintainability, and long-term scalability.
+I’m currently building toward AI engineering roles by combining software engineering fundamentals with strong test automation practice. My goal is to ship systems that are dependable, observable, and easy to extend.
 
-### Core Principles
+### Core Interests
 
-- Designing maintainable automation frameworks
-- Reducing flaky tests through clean architecture
-- Writing reusable and scalable test utilities
-- Integrating automated testing into CI/CD pipelines
-- Prioritizing stability over inflated coverage metrics
+- AI engineering fundamentals and applied tooling
+- Playwright automation for modern web applications
+- Test strategy, maintainability, and reduction of flaky tests
+- CI/CD integration for fast and reliable feedback
+- Writing software with quality and scalability in mind
 
 ---
 
-# Tech Stack
+## Playwright Skills
 
 <div align="center">
 
-## Automation & Testing
-
-<img src="https://skillicons.dev/icons?i=selenium,postman,py,java,js"/>
-
-<br>
-
 <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white"/>
-<img src="https://img.shields.io/badge/Cucumber-23D96C?style=for-the-badge&logo=cucumber&logoColor=white"/>
-<img src="https://img.shields.io/badge/TestNG-E33332?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+
+</div>
+
+I use Playwright to build clean, maintainable test suites with a focus on reliability and developer experience.
+
+### Highlights
+
+- End-to-end testing for modern web apps
+- Page Object Model and reusable test abstractions
+- Cross-browser execution and responsive validation
+- Assertions, waits, and locator strategies that reduce flakiness
+- Test data setup and teardown patterns
+- CI-ready test runs and reporting workflows
 
 ---
 
-## Tools & DevOps
+## Tech Stack
 
-<img src="https://skillicons.dev/icons?i=git,github,docker,jenkins,linux,maven"/>
+<div align="center">
+
+### Automation & Engineering
+
+<img src="https://skillicons.dev/icons?i=ts,js,py,java,git,github,docker,linux"/>
+
+<br>
+
+<img src="https://img.shields.io/badge/Cucumber-23D96C?style=for-the-badge&logo=cucumber&logoColor=white"/>
+<img src="https://img.shields.io/badge/TestNG-E33332?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/>
 
 </div>
 
 ---
 
-# Testing Methodologies
+## Working Style
 
 ```text
-✔ Page Object Model (POM)
-✔ Behavior Driven Development (BDD)
-✔ API Testing & Validation
-✔ End-to-End Automation
-✔ Cross Browser Testing
-✔ CI/CD Integrated Testing
+✔ Build automation that is easy to maintain
+✔ Prefer stable locators and clear test design
+✔ Keep tests fast, readable, and repeatable
+✔ Integrate quality checks into delivery pipelines
+✔ Treat automation as software engineering
 ```
 
 ---
 
-# Current Roadmap
+## Roadmap
 
 ```mermaid
 graph LR
-    A[Framework Design] --> B[Playwright]
-    B --> C[CI/CD Pipelines]
-    C --> D[SDET Engineering]
-    D --> E[ISTQB CTFL]
+    A[AI Engineering Fundamentals] --> B[Playwright Excellence]
+    B --> C[Automation Architecture]
+    C --> D[CI/CD Quality Gates]
+    D --> E[Production-Ready Systems]
 
-    style A fill:#1f2937,color:#fff
-    style D fill:#2563eb,color:#fff
+    style A fill:#111827,color:#fff
+    style C fill:#2563eb,color:#fff
     style E fill:#16a34a,color:#fff
 ```
 
-- Framework architecture refinement
-- Playwright advanced automation
-- CI-integrated execution pipelines
-- Java mastery for enterprise SDET roles
-- Preparing for ISTQB CTFL certification
+- Deepen AI engineering and applied ML workflow knowledge
+- Advance Playwright framework design and test reliability
+- Strengthen CI/CD, observability, and delivery practices
+- Build portfolio projects that combine AI and automation
 
 ---
 
-# GitHub Analytics
+## GitHub Analytics
 
 <div align="center">
 
@@ -138,29 +152,19 @@ graph LR
 
 ---
 
-# Achievements
+## Open To
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=ahamedumar15&theme=tokyonight&no-frame=true&row=1&column=6"/>
+`AI Engineering Opportunities` • `Test Automation Roles` • `SDET Roles`
+
+`Playwright Projects` • `Open Source Collaboration` • `Technical Networking`
 
 </div>
 
 ---
 
-# Open To
-
-<div align="center">
-
-`QA Automation Opportunities` • `SDET Roles` • `Open Source Collaboration`
-
-`Framework Design Discussions` • `Mentorship` • `Tech Networking`
-
-</div>
-
----
-
-# Connect With Me
+## Connect With Me
 
 <div align="center">
 
@@ -172,17 +176,16 @@ graph LR
   <img src="https://img.shields.io/badge/Gmail-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
-
 </div>
 
 ---
 
 <div align="center">
 
-### "Quality is engineered — not inspected."
+### "Quality and intelligence should both be engineered well."
 
 <br>
 
-⭐ If you enjoy my work, consider starring my repositories.
+⭐ If you find this profile useful, feel free to star my repositories.
 
 </div>
