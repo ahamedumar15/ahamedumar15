@@ -43,22 +43,31 @@
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=py,ts,js,java"/>
+<img src="https://skillicons.dev/icons?i=py,ts,js,java,cs"/>
+<br>
+<img src="https://img.shields.io/badge/JSON-000?style=for-the-badge&logo=json&logoColor=white"/>
 
 <br>
 
 **Frontend**
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind"/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,astro,vite,threejs,html,css,tailwind"/>
 
 <br>
 
 **Backend**
 
+<img src="https://skillicons.dev/icons?i=nodejs,spring,dotnet"/>
+<br>
 <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
 <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
+
+<br>
+
+**Databases**
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite,firebase"/>
 
 <br>
 
@@ -75,7 +84,7 @@
 
 **DevOps & Observability**
 
-<img src="https://skillicons.dev/icons?i=docker,githubactions,jenkins,git,github,linux,grafana,prometheus"/>
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,jenkins,git,github,linux,grafana,prometheus"/>
 
 </div>
 
@@ -85,22 +94,9 @@
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=ahamedumar15&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahamedumar15&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
+<img height="180" src="https://readme-stats-fork-mauve.vercel.app/api/?username=ahamedumar15&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
+<img height="180" src="https://readme-stats-fork-mauve.vercel.app/api/top-langs/?username=ahamedumar15&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
 
-<br><br>
-
-<img src="https://streak-stats.demolab.com/?user=ahamedumar15&theme=tokyonight&hide_border=true"/>
-
-<br><br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=ahamedumar15&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8"/>
-
-<br><br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ahamedumar15&theme=tokyo-night&hide_border=true&area=true"/>
-
-</div>
 
 ---
 
