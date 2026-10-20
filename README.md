@@ -1,111 +1,37 @@
 <div align="center">
 
-# Umar Ahamed
+<img src="assets/hero.svg" width="100%" alt="Umar Ahamed — Software Engineer and AI Engineering. I build AI systems that are grounded, observable, and tested. Open to AI Engineering and Software Engineering internships." />
 
-### Software Engineer • AI Engineering
+<img src="assets/typing.svg" width="620" alt="Building retrieval that cites its sources. Measuring faithfulness, not vibes. Writing guardrails a model can't talk past." />
 
-<p>
-  I build AI systems that are grounded, observable, and tested.
+<br/>
+
+<a href="https://linkedin.com/in/ahamed-umar"><img src="https://img.shields.io/badge/LinkedIn-1D4ED8?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:ahamedumar825@gmail.com"><img src="https://img.shields.io/badge/Email-1C2650?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<img src="https://komarev.com/ghpvc/?username=ahamedumar15&style=for-the-badge&color=4F46E5&label=Profile+views" alt="Profile views" />
+
+</div>
+
+<br/>
+
+<h2><picture><source media="(prefers-color-scheme: light)" srcset="assets/headers/stack-light.svg" /><img src="assets/headers/stack.svg" width="100%" alt="Tech Stack: tools I use to build, ship and scale" /></picture></h2>
+
+<img src="assets/tech-stack.svg" width="100%" alt="AI and machine learning: LangChain, LangGraph, Gemini, Claude, RAG, ChromaDB, embeddings, LLM evaluation, multi-agent systems. Languages: Python, TypeScript, JavaScript, Java, C#, JSON. Frontend: React, Next.js, Astro, Vite, Three.js, HTML5, CSS3, Tailwind. Backend and APIs: Node.js, Spring, .NET, FastAPI, Streamlit, Postman. Databases: PostgreSQL, MySQL, MongoDB, SQLite, Firebase. Testing and quality: Pytest, Playwright, Selenium, Cucumber, mypy, Ruff. DevOps and observability: Docker, Kubernetes, GitHub Actions, Jenkins, Git, GitHub, Linux, Grafana, Prometheus." />
+
+<br/><br/>
+
+<h2><picture><source media="(prefers-color-scheme: light)" srcset="assets/headers/stats-light.svg" /><img src="assets/headers/stats.svg" width="100%" alt="GitHub Stats: public activity, refreshed daily" /></picture></h2>
+
+<img src="assets/stats.svg" width="100%" alt="Public GitHub activity for ahamedumar15: contribution calendar for the last twelve months and language breakdown of original public repositories. The exact figures are in the image's title text." />
+
+<br/><br/>
+
+<a href="https://linkedin.com/in/ahamed-umar"><img src="assets/closing.svg" width="100%" alt="Open to AI Engineering and Software Engineering internships. Let's build AI that can show its work. Connect on LinkedIn." /></a>
+
+<p align="center">
+  <a href="https://linkedin.com/in/ahamed-umar">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:ahamedumar825@gmail.com">ahamedumar825@gmail.com</a> &nbsp;·&nbsp;
+  <a href="https://github.com/ahamedumar15?tab=repositories">All repositories</a>
 </p>
 
-<br>
-
-<a href="https://linkedin.com/in/ahamed-umar">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="mailto:ahamedumar825@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-<img src="https://komarev.com/ghpvc/?username=ahamedumar15&style=for-the-badge&color=0e75b6"/>
-
-</div>
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-**AI & Machine Learning**
-
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
-<img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white"/>
-<br>
-<img src="https://img.shields.io/badge/RAG-4B5563?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/ChromaDB-FF6B6B?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Embeddings-4B5563?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/LLM_Evaluation-0EA5E9?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Multi--Agent-0EA5E9?style=for-the-badge"/>
-
-<br>
-
-**Languages**
-
-<img src="https://skillicons.dev/icons?i=py,ts,js,java,cs"/>
-<br>
-<img src="https://img.shields.io/badge/JSON-000?style=for-the-badge&logo=json&logoColor=white"/>
-
-<br>
-
-**Frontend**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,astro,vite,threejs,html,css,tailwind"/>
-
-<br>
-
-**Backend**
-
-<img src="https://skillicons.dev/icons?i=nodejs,spring,dotnet"/>
-<br>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-
-<br>
-
-**Databases**
-
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite,firebase"/>
-
-<br>
-
-**Testing & Quality**
-
-<img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white"/>
-<img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white"/>
-<img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white"/>
-<img src="https://img.shields.io/badge/Cucumber-23D96C?style=for-the-badge&logo=cucumber&logoColor=white"/>
-<img src="https://img.shields.io/badge/mypy-2A6DB2?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/ruff-D7FF64?style=for-the-badge&logoColor=black"/>
-
-<br>
-
-**DevOps & Observability**
-
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,jenkins,git,github,linux,grafana,prometheus"/>
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180" src="https://readme-stats-fork-mauve.vercel.app/api/?username=ahamedumar15&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
-<img height="180" src="https://readme-stats-fork-mauve.vercel.app/api/top-langs/?username=ahamedumar15&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
-
-
----
-
-<div align="center">
-
-### 💬 Open to AI Engineering & Software Engineering internships
-
-<a href="https://linkedin.com/in/ahamed-umar">
-  <img src="https://img.shields.io/badge/Let's_Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-</div>
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg" /><img src="assets/footer.svg" width="100%" alt="Umar Ahamed. Grounded. Observable. Tested." /></picture>
