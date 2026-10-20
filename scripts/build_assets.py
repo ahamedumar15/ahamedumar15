@@ -404,118 +404,6 @@ def tech_stack() -> None:
     save("tech-stack.svg", s)
 
 
-# ---------------------------------------------------------------- project covers
-
-def fact_chips(s: Svg, facts, x, y) -> None:
-    for f in facts:
-        w = text_width(f, "mono", 12) + 24
-        s.add(f'<rect x="{x:.1f}" y="{y}" width="{w:.1f}" height="28" rx="8" fill="{CHIP}" stroke="{LINE2}"/>')
-        s.text(f, x + 12, y + 18.5, 12, "mono", SOFT)
-        x += w + 8
-
-
-def node(s: Svg, x, y, w, h, lines, color=SOFT, stroke=LINE2, fill=CHIP) -> None:
-    s.add(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="9" fill="{fill}" stroke="{stroke}"/>')
-    n = len(lines)
-    for i, t in enumerate(lines):
-        s.text(t, x + w / 2, y + h / 2 + 4 + (i - (n - 1) / 2) * 15, 11.5, "mono", color, anchor="middle")
-
-
-def pulse_path(s: Svg, d: str, color: str, dur: float, delay: float, base=LINE2) -> None:
-    s.add(f'<path d="{d}" fill="none" stroke="{base}" stroke-width="1.4"/>')
-    s.add(f'<path class="flow motion" style="animation-duration:{dur}s;animation-delay:{delay}s" d="{d}" pathLength="1000" '
-          f'fill="none" stroke="{color}" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="70 1000" stroke-dashoffset="70"/>')
-
-
-def cover_base(s: Svg, tag: str, title: str, blurb: list[str], facts) -> None:
-    s.css.append("@keyframes flow{0%{stroke-dashoffset:70}60%,100%{stroke-dashoffset:-1000}}"
-                 ".flow{animation-name:flow;animation-timing-function:ease-in-out;animation-iteration-count:infinite}"
-                 "@keyframes blink{0%,100%{opacity:.35}50%{opacity:1}}.blink{animation:blink 3.2s ease-in-out infinite}")
-    s.add(f'<rect x="1" y="1" width="{W - 2}" height="{s.h - 2}" rx="18" fill="{PANEL}" stroke="{LINE}"/>')
-    s.add(f'<ellipse cx="1040" cy="40" rx="300" ry="160" fill="{s.radial([(0, "#3B2BB5", .22), (1, "#0A1024", 0)])}"/>')
-    s.text(tag, 44, 56, 12, "mono", SKY, track=1.2)
-    s.text(title, 42, 100, 32, "s", TEXT, track=-.4)
-    for i, b in enumerate(blurb):
-        s.text(b, 44, 138 + i * 25, 16, "r", MUTE)
-    fact_chips(s, facts, 44, s.h - 64)
-
-
-def cover_pdf() -> None:
-    s = Svg(W, 300, "Personal PDF Chatbot. Grounded RAG over your PDFs: per-page chunks, embeddings, MMR or hybrid retrieval, "
-                    "then a similarity gate. With evidence it generates a cited answer; without evidence it returns a fixed refusal "
-                    "without calling the model. An offline evaluation harness measures recall, faithfulness, citation validity and refusal accuracy.")
-    cover_base(s, "PINNED  ·  RAG  ·  PYTHON", "Personal PDF Chatbot",
-               ["Answers grounded in the actual pages of your PDFs,", "with a citation for every claim, or an honest refusal."],
-               ["530+ offline tests", "mypy strict", "6-job CI", "Prometheus + Grafana"])
-    y = 92
-    gx, gy = 1062, y
-    main = f"M600 {y} L1036 {y}"
-    pulse_path(s, main + f" L{gx} {gy - 26} L{gx} 42 L1096 42", CYAN, 6, 0)
-    pulse_path(s, main + f" L{gx} {gy + 26} L{gx} 142 L1096 142", ROSE, 6, 3)
-    xs = [600, 708, 816]
-    labels = [["PDF pages"], ["chunk", "per page"], ["embed"]]
-    for x, l in zip(xs, labels):
-        node(s, x, y - 22, 88, 44, l)
-    node(s, 924, y - 22, 96, 44, ["retrieve", "MMR / hybrid"], SKY)
-    # the gate
-    s.add(f'<path d="M{gx} {gy - 26} L{gx + 26} {gy} L{gx} {gy + 26} L{gx - 26} {gy}Z" fill="#141A3E" stroke="{LILAC}" stroke-width="1.4"/>')
-    s.text("gate", gx, gy + 4, 11, "mono", LILAC, anchor="middle")
-    node(s, 1096, 20, 84, 44, ["generate", "cite [S1]"], CYAN, "#1F5C63")
-    node(s, 1096, 120, 84, 44, ["refuse", "no LLM call"], ROSE, "#5E2A45")
-    s.text("score ≥ threshold", 1070, 30, 10, "mono", DIM, anchor="end")
-    s.text("below threshold", 1070, 175, 10, "mono", DIM, anchor="end")
-    # evaluation strip
-    s.add(f'<rect x="600" y="196" width="580" height="40" rx="10" fill="#0A1A2A" stroke="#1F4A55"/>')
-    s.add(line_icon("flask-conical", 614, 207, 18, CYAN, 2))
-    s.text("evaluate", 640, 221, 12, "mono", CYAN)
-    s.text("context recall · faithfulness · citation validity · refusal accuracy", 708, 221, 11.5, "mono", SOFT)
-    s.add(f'<path d="M1138 164 L1138 196" stroke="#1F4A55" stroke-dasharray="3 4"/><path d="M1124 64 L1124 72" stroke="#1F4A55"/>')
-    s.text("from the repo's README and docs/architecture.md", 1180, 262, 10.5, "mono", DIM, anchor="end")
-    save("projects/personal-pdf-chatbot.svg", s)
-
-
-AUDIT = [  # verbatim from crunchflow/examples/expense-tracker/.crunchflow/audit.jsonl
-    ("hook", "Write src/app.py - no approved spec"),
-    ("hook", "Write src/secrets.py - outside task T3 scope"),
-    ("hook", "Write src/store.py - QA may not edit code"),
-    ("hook(bash:sed -i)", "Bash src/store.py - QA may not edit code"),
-]
-
-
-def cover_crunchflow() -> None:
-    s = Svg(W, 300, "CrunchFlow. A Claude Code plugin that runs AI coding as a governed team: analyst, three competing architects, "
-                    "judge, a human approval gate bound to the spec's sha256, planner, test-first developer, adversarial QA and release. "
-                    "A hook script checks every write and shell command. Shown: four of the eight real BLOCKED entries from the worked example's audit trail.")
-    cover_base(s, "PINNED  ·  AGENTS  ·  CLAUDE CODE PLUGIN", "CrunchFlow",
-               ["A Claude Code plugin that turns AI coding into a", "governed team, with rules enforced by hooks, not prompts."],
-               ["460+ tests", "0 dependencies", "3 OS × Python 3.9–3.13", "MIT"])
-    stages = ["Analyst", "Architect×3", "Judge", "Human gate", "Planner", "Dev · TDD", "QA", "Release"]
-    x, y, gapx = 600, 30, 8
-    widths = [text_width(t, "mono", 11.5) + 20 for t in stages]
-    scale = (580 - gapx * (len(stages) - 1)) / sum(widths)
-    pts = []
-    for t, w in zip(stages, widths):
-        w *= scale
-        gate = t == "Human gate"
-        node(s, round(x, 1), y, round(w, 1), 34, [t], LILAC if gate else SOFT, LILAC if gate else LINE2, "#141A3E" if gate else CHIP)
-        pts.append((x, x + w))
-        x += w + gapx
-    pulse_path(s, f"M600 {y + 34 + 8} L1180 {y + 34 + 8}", LILAC, 7, 0, base=LINE)
-    s.text("sha256(spec) bound at approval", (pts[3][0] + pts[3][1]) / 2, y + 62, 10, "mono", DIM, anchor="middle")
-    # the referee and its real trail
-    s.add(f'<rect x="600" y="112" width="580" height="124" rx="10" fill="#0B0F22" stroke="{LINE2}"/>')
-    s.add(line_icon("shield-x", 614, 122, 16, ROSE, 2))
-    s.text("hooks/gate.py  →  .crunchflow/audit.jsonl", 638, 135, 11.5, "mono", SOFT)
-    for i, (actor, detail) in enumerate(AUDIT):
-        yy = 162 + i * 20
-        cls = "blink" if i == 3 else ""
-        s.text("BLOCKED", 616, yy, 11, "mono", ROSE, cls=cls)
-        s.text(f"{actor:<18}", 680, yy, 11, "mono", DIM)
-        s.text(detail, 812, yy, 11, "mono", SOFT)
-    s.text("4 of 8 real entries from the worked example's audit trail", 1180, 262, 10.5, "mono", DIM, anchor="end")
-    save("projects/crunchflow.svg", s)
-
-
 # ---------------------------------------------------------------- closing
 
 def closing() -> None:
@@ -685,8 +573,7 @@ def stats() -> None:
     save("stats.svg", s)
 
 
-BUILDERS = {"hero": hero, "typing": typing, "stack": tech_stack, "pdf": cover_pdf, "crunchflow": cover_crunchflow,
-            "closing": closing, "footer": footer, "wordmark": wordmark, "stats": stats}
+BUILDERS = {"hero": hero, "typing": typing, "stack": tech_stack, "closing": closing, "footer": footer, "wordmark": wordmark, "stats": stats}
 
 
 def main() -> int:
@@ -700,8 +587,6 @@ def main() -> int:
             continue
         if n == "headers":
             header("stack", "Tech Stack", "layers", "Tools I use to build, ship and scale")
-            header("work", "Selected Work", "boxes", "Public repositories, with the evidence linked")
-            header("principles", "How I Build", "scale", "Each principle points at code you can read")
             header("stats", "GitHub Stats", "chart-column", "Public activity, refreshed daily")
             continue
         try:
